@@ -16,10 +16,11 @@
 </div>
 
 <div>
-	<input type="number" id="numline" />
+	<label for="numline">Id for API class</label><br />
+	<input type="number" id="numline" min="0" value="0"/>
 </div>
 <div>
-	<button type="button" class="btn_example" id="api_button"> CLICK ME! </button>
+	<button type="button" class="btn_example" id="api_button"> Get data </button>
 </div>
 
 @section scripts
@@ -46,7 +47,7 @@
 			contentType: "application/json; charset=utf-8",
 			dataType: "json",
 			success: function (response) {
-				alert(val.value);
+				console.log(response);
 			},
 			failure: function (e) {
 				alert(e);
