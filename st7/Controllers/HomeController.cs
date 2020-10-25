@@ -18,15 +18,25 @@ namespace st7.Controllers
 			_logger = logger;
 		}
 
+		
 		public IActionResult Index()
 		{
 			return View();
 		}
 
-		public IActionResult Privacy()
+		public IActionResult Patient()
 		{
 			return View();
 		}
+
+		public IActionResult Doctor()
+		{
+			return View();
+		}
+
+
+
+
 
 		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
 		public IActionResult Error()

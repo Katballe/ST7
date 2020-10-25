@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Katballes boi\\source\\repos\\st7\\st7\\st7.csproj": {}
+    "C:\\Users\\Katballes boi\\ST7\\st7\\st7.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Katballes boi\\source\\repos\\st7\\st7\\st7.csproj": {
+    "C:\\Users\\Katballes boi\\ST7\\st7\\st7.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Katballes boi\\source\\repos\\st7\\st7\\st7.csproj",
+        "projectUniqueName": "C:\\Users\\Katballes boi\\ST7\\st7\\st7.csproj",
         "projectName": "st7",
-        "projectPath": "C:\\Users\\Katballes boi\\source\\repos\\st7\\st7\\st7.csproj",
+        "projectPath": "C:\\Users\\Katballes boi\\ST7\\st7\\st7.csproj",
         "packagesPath": "C:\\Users\\Katballes boi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Katballes boi\\source\\repos\\st7\\st7\\obj\\",
+        "outputPath": "C:\\Users\\Katballes boi\\ST7\\st7\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

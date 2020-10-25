@@ -21,9 +21,9 @@ namespace st7.Controllers
         }
 
         [HttpGet("GetClass")]
-        public TestClass GetClass()
+        public TestClass GetClass(int id)
         {
-            TestClass testClass = new TestClass(1, "Martin");
+            TestClass testClass = new TestClass(id, "Martin");
             return testClass;
         }
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YWsYTUdUhze+v8ygjaPwirCDkGh3v8hAD2Rct5DOYZEwOjpKAzPIfNWti4gjBHAlCY5XR5czfrPt8GE7oB8auw==",
+  "dgSpecHash": "JG/vs6PYlmoOMD1VDPbp619mg3nIKwPOiuRvsmEENyuyMfcfTpX11JegK37uYxnuOY3+neI9fhuh1rhcqYSzyg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Katballes boi\\source\\repos\\st7\\st7\\st7.csproj",
+  "projectFilePath": "C:\\Users\\Katballes boi\\ST7\\st7\\st7.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Katballes boi\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Katballes boi\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
