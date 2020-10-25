@@ -6069,23 +6069,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Katballes boi\\.nuget\\packages\\": {},
+    "C:\\Users\\mathi\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Katballes boi\\ST7\\st7\\st7.csproj",
+      "projectUniqueName": "C:\\Users\\mathi\\ST7\\st7\\st7.csproj",
       "projectName": "st7",
-      "projectPath": "C:\\Users\\Katballes boi\\ST7\\st7\\st7.csproj",
-      "packagesPath": "C:\\Users\\Katballes boi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Katballes boi\\ST7\\st7\\obj\\",
+      "projectPath": "C:\\Users\\mathi\\ST7\\st7\\st7.csproj",
+      "packagesPath": "C:\\Users\\mathi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mathi\\ST7\\st7\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Katballes boi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mathi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -6133,7 +6133,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
