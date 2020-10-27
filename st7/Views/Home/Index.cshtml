@@ -10,85 +10,94 @@
 
 
 
-
-<div class="chartbox" id="firstBox">
-	<canvas id="chr_example"></canvas>
-</div>
+<center>
+	<div class="chartbox" id="firstBox">
+		<canvas id="chr_example"></canvas>
+	</div>
+</center>
 
 <div>
 	<label for="numline">Id for API class</label><br />
-	<input type="number" id="numline" min="0" value="0"/>
-</div>
-<div>
+	<input type="number" id="numline" min="0" value="0" />
 	<button type="button" class="btn_example" id="api_button"> Get data </button>
 </div>
 
 @section scripts
 {
-<script>
-	document.getElementById('api_button').addEventListener('click', function () {
-		//$.ajax({
-		//	type: "<methodType>",
-		//	url: 'api/<method>',
-		//	data: {},
-		//	contentType: "application/json; charset=utf-8",
-		//	dataType: "json",
-		//	success: function (response) {
-		//	},
-		//	failure: function (e) {
-		//	}
-		var val = document.getElementById('numline');
-		$.ajax({
-			type: "GET",
-			url: 'api/GetClass',
+	
+	<script>
+		document.getElementById('api_button').addEventListener('click', function () {
+			//$.ajax({
+			//	type: "<methodType>",
+			//	url: 'api/<method>',
+			//	data: {},
+			//	contentType: "application/json; charset=utf-8",
+			//	dataType: "json",
+			//	success: function (response) {
+			//	},
+			//	failure: function (e) {
+			//	}
+
+			var val = document.getElementById('numline');
+			if (val.value <= 0) {
+				alert("Please insert and ID");
+			} else {
+				$.ajax({
+					type: "GET",
+					url: 'api/GetClass',
+					data: {
+						id: val.value
+					},
+					contentType: "application/json; charset=utf-8",
+					dataType: "json",
+					success: function (response) {
+						console.log(response);
+					},
+					failure: function (e) {
+						alert(e);
+					}
+				});
+			}
+
+
+		});
+
+
+	</script>
+
+	<script>
+		Chart.defaults.global.defaultFontColor = 'white';
+		var ctx = document.getElementById('chr_example').getContext('2d');
+		var exChart = new Chart(ctx, {
+			type: 'line',
 			data: {
-				id: val.value
+				labels: ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Eleven',
+					'Twelve', 'Thirteen', 'Fourteen', 'Sixteen', 'Seventeen'],
+				datasets: [{
+					label: '# of Votes',
+					data: [0, 1, 3, 5, 10, 15, 19, 14, 8, 5, 2, 1, 1, 3, 5, 8, 15],
+					backgroundColor: [
+						'rgba(255, 140, 0, 0.8)'
+					],
+					borderColor: [
+						'rgba(255, 140, 0, 0.8)'
+					],
+					borderWidth: 1
+				}]
 			},
-			contentType: "application/json; charset=utf-8",
-			dataType: "json",
-			success: function (response) {
-				console.log(response);
-			},
-			failure: function (e) {
-				alert(e);
+			options: {
+				legend: {
+					display: false
+				},
+				scales: {
+					yAxes: [{
+						ticks: {
+							beginAtZero: true
+						}
+					}]
+				}
 			}
 		});
-	});
-	
-
-</script>
-	
-<script>
-	var ctx = document.getElementById('chr_example').getContext('2d');
-	var exChart = new Chart(ctx, {
-		type: 'line',
-		data: {
-			labels: ['One', 'Two', 'Three', 'Four', 'Five', 'Six'],
-			datasets: [{
-				label: '# of Votes',
-				data: [12, 19, 3, 5, 2, 3],
-				backgroundColor: [
-					'rgba(255, 140, 0, 0.8)'
-				],
-				borderColor: [
-					'rgba(255, 140, 0, 0.8)'
-				],
-				borderWidth: 1
-			}]
-		},
-		options: {
-			legend: {
-				display: false
-			},
-			scales: {
-				yAxes: [{
-					ticks: {
-						beginAtZero: true
-					}
-				}]
-			}
-		}
-	});
-</script>
+	</script>
 
 }
