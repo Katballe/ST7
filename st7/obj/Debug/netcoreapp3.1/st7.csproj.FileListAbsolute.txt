@@ -193,8 +193,6 @@ C:\Users\Katballes boi\ST7\st7\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis
 C:\Users\Katballes boi\ST7\st7\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Katballes boi\ST7\st7\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Katballes boi\ST7\st7\obj\Debug\netcoreapp3.1\st7.csprojAssemblyReference.cache
-C:\Users\Katballes boi\ST7\st7\obj\Debug\netcoreapp3.1\st7.csproj.CoreCompileInputs.cache
-C:\Users\Katballes boi\ST7\st7\obj\Debug\netcoreapp3.1\st7.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Katballes boi\ST7\st7\obj\Debug\netcoreapp3.1\st7.RazorAssemblyInfo.cache
 C:\Users\Katballes boi\ST7\st7\obj\Debug\netcoreapp3.1\st7.RazorAssemblyInfo.cs
 C:\Users\Katballes boi\ST7\st7\obj\Debug\netcoreapp3.1\st7.AssemblyInfoInputs.cache
